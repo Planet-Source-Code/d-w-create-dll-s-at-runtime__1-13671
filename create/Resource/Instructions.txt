@@ -1,0 +1,28 @@
+Instructions for putting a .dll  in a resource file
+
+1. Copy the .dll to the directory containing the 
+Resource project. This folder also must include rc.exe
+and rcdll.dll. This folder may be named Resource.
+
+2. Run the project and select the .dll from the common
+dialog.
+
+3. After Dll.res is created, copy it to your project
+directory and add it to your project from the 
+Project/Add File menu option. 
+
+Limitations: 
+
+1. You can only have one resource file in a VB project.
+
+2. Using this method you can only have one file in the
+resource file. To add several files you would need to 
+create the Dll.rc file manually.
+
+3. May be a size limitation but it is not the 64K limit
+referred to in VB help.
+
+4. This is an example program only that works here and
+may not work in other cases.
+
+5. DOS sometimes gets paths confused.
